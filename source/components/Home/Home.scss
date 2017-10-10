@@ -1,8 +1,114 @@
+html, body {
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+
 .Home {
-    color: skyblue;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    position: fixed;
+    background-color: black;
+    z-index: 100;
+    height: 5vw;
+    width: 100%;
+}
+
+.Home h1 {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 1vw;
+  transform: translateY(-50%);
+}
+
+.input {
+  position: absolute;
+  top: 2.5vw;
+  left: 85%;
+  transform: translate(-50%, -50%);
+}
+
+.hometag {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.gallerytag {
+  position: absolute;
+  top: 50%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.check {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  top: 5vw;
+}
+
+.check h2 {
+  position: absolute;
+  font-size: 4vw;
+}
+
+.form {
+  position: absolute;
+  top: 2.5vw;
+  transform: translateY(-50%);
+  left: 20vw;
+  width: 50vw;
+  height: 4vw;
+}
+
+.list {
+  position: absolute;
+  height: 60vw;
+  width: 100%;
+  top: 10vw;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: auto;
+  border: solid 1px;
+}
+
+.item:hover {
+  background-color: grey;
+  color: white;
+}
+
+.item {
+  position: relative;
+  height: 20vw;
+  width: 100%;
+  left: 50%;
+  color: black;
+  transform: translateX(-50%);
+}
+
+.image {
+  position: absolute;
+  left: 2vw;
+  width: 12vw;
+  top: 10vw;
+  transform: translateY(-50%);
+}
+
+.text {
+  position: absolute;
+  left: 16vw;
+  width: 60vw;
+  top: 10vw;
+  transform: translateY(-50%);
+  height: 16vw;
+}
+
+.texttitle {
+  line-height: 4vw;
+  font-size: 3vw;
 }

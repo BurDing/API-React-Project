@@ -1,0 +1,36 @@
+.decard {
+  position: absolute;
+  left: 50%;
+  top: 50vh;
+  height: 80vh;
+  overflow: auto;
+  transform: translate(-50%, -50%);
+}
+
+.detitle {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translateX(-50%);
+}
+
+.deimage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateY(0%);
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.previous {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}

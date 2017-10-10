@@ -1,0 +1,72 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.back {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://orig00.deviantart.net/2315/f/2011/035/6/4/imdb_top_250_movie_poster_by_saxon1964-d38rnod.jpg");
+  background-size: 100% 100%;
+  background-repeat: repeat-y;
+  opacity: 0.5;
+}
+
+.gall {
+  position: absolute;
+  display: flex;
+  justify-content:flex-start;
+  flex-wrap: wrap;
+  top: 8vw;
+  width: 84.7%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: auto;
+  border: solid 1px;
+}
+
+.gallimage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 14vw;
+  padding: 1vw 1vw 1vw 1vw;
+  height: 20vw;
+  transform: translateY(0%);
+}
+
+.gallimage:hover {
+  width: 14vw;
+  padding: 0vw 0vw 0vw 0vw;
+  height: 22vw;
+}
+
+.galltitle {
+  top: 0;
+  position: fixed;
+  background-color: black;
+  z-index: 100;
+  height: 5vw;
+  width: 100%;
+}
+
+.galltitle h1 {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 1vw;
+  transform: translateY(-50%);
+}
+
+.gallcate {
+  position: fixed;
+  z-index: 100;
+  height: 3vw;
+  top: 5vw;
+  width: 84.7%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-around;
+}
