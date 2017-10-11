@@ -24,7 +24,7 @@ class Details extends React.Component {
     this.pid = 0;
   }
 
-  componentDidMount() {
+  componentWillMount() {
     axios.get(`https://api.themoviedb.org/3/movie/${this.props.location.state.id}?api_key=68863632dde2049fa162227d32742795`)
       .then((res) => {
           this.content = res.data;
@@ -51,10 +51,6 @@ class Details extends React.Component {
       }
       this.nid = this.group[this.nx].id;
       this.pid = this.group[this.px].id;
-  }
-
-  componentWillUnmount() {
-
   }
 
   render() {

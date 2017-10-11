@@ -43,14 +43,6 @@ class Gallery_Cate extends React.Component {
 
   }
 
-  componentDidMount() {
-
-  }
-
-  componentWillUnmount() {
-
-  }
-
   render() {
     return (
       <div>
