@@ -111,7 +111,7 @@ class Check extends React.Component {
         <h2>{this.tag}</h2>
 
         <Form className = "form">
-          <Form.Field>
+          <Form.Field className = "field" >
             <Checkbox
               radio
               label={this.first}
@@ -121,7 +121,7 @@ class Check extends React.Component {
               onChange={this.first_f}
             />
           </Form.Field>
-          <Form.Field>
+          <Form.Field className = "field">
             <Checkbox
               radio
               label={this.second}

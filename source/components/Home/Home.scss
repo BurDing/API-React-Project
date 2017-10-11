@@ -66,10 +66,19 @@ html, body {
 
 .form {
   position: absolute;
+  display: flex;
+  flex-flow: row;
   top: 2vw;
   transform: translateY(-50%);
   left: 20vw;
   width: 50vw;
+  height: 4vw;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  width: 15vw;
   height: 4vw;
 }
 
