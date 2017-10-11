@@ -55,7 +55,7 @@ class Gallery_Cate extends React.Component {
     return (
       <div>
 
-          <Button onClick = {this.filter}>
+          <Button className = "button" onClick = {this.filter}>
             {this.props.name}
           </Button>
 

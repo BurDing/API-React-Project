@@ -15,6 +15,7 @@ html, body {
 
 .Home h1 {
   position: absolute;
+  font-size: 6vw;
   color: white;
   top: 50%;
   left: 1vw;
@@ -30,36 +31,42 @@ html, body {
 
 .hometag {
   position: absolute;
-  top: 50%;
-  left: 15%;
-  transform: translate(-50%, -50%);
+  font-size: 3vw;
+  top: 90%;
+  left: 32%;
+  transform: translate(-50%, -100%);
   color: white;
 }
 
 .gallerytag {
   position: absolute;
-  top: 50%;
-  left: 22%;
-  transform: translate(-50%, -50%);
+  font-size: 3vw;
+  top: 90%;
+  left: 42%;
+  transform: translate(-50%, -100%);
   color: white;
 }
 
 .check {
-  position: absolute;
+  position: fixed;
   width: 100%;
+  z-index: 100;
   display: flex;
   justify-content: center;
   top: 5vw;
+  background-color: white;
+  border-bottom: solid black 0.1vw;
 }
 
 .check h2 {
   position: absolute;
   font-size: 4vw;
+  top: -0.5vw;
 }
 
 .form {
   position: absolute;
-  top: 2.5vw;
+  top: 2vw;
   transform: translateY(-50%);
   left: 20vw;
   width: 50vw;
@@ -68,13 +75,11 @@ html, body {
 
 .list {
   position: absolute;
-  height: 60vw;
   width: 100%;
   top: 10vw;
   left: 50%;
   transform: translateX(-50%);
   overflow: auto;
-  border: solid 1px;
 }
 
 .item:hover {

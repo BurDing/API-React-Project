@@ -18,12 +18,11 @@ html, body {
   display: flex;
   justify-content:flex-start;
   flex-wrap: wrap;
-  top: 8vw;
+  top: 5vw;
   width: 84.7%;
   left: 50%;
   transform: translateX(-50%);
   height: auto;
-  border: solid 1px;
 }
 
 .gallimage {
@@ -52,6 +51,7 @@ html, body {
 }
 
 .galltitle h1 {
+  font-size: 6vw;
   position: absolute;
   color: white;
   top: 50%;
@@ -59,14 +59,33 @@ html, body {
   transform: translateY(-50%);
 }
 
+.hometag {
+  position: absolute;
+  font-size: 3vw;
+  top: 90%;
+  left: 32%;
+  transform: translate(-50%, -100%);
+  color: white;
+}
+
+.gallerytag {
+  position: absolute;
+  font-size: 3vw;
+  top: 90%;
+  left: 42%;
+  transform: translate(-50%, -100%);
+  color: white;
+}
+
 .gallcate {
   position: fixed;
-  z-index: 100;
-  height: 3vw;
   top: 5vw;
-  width: 84.7%;
-  left: 50%;
-  transform: translateX(-50%);
   display: flex;
+  flex-flow: column;
   justify-content: space-around;
+}
+
+.button {
+  width: 8vw;
+  height: 4vw;
 }
