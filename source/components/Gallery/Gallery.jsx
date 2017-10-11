@@ -47,7 +47,7 @@ class Gallery extends React.Component {
     });
   }
 
-  componentWillMount() {
+  componentDidMount() {
     for (let i = 1; i < this.state.page; i++) {
       axios.get(`https://api.themoviedb.org/3/movie/popular?api_key=68863632dde2049fa162227d32742795&language=en-US&page=${i}`)
         .then((res) => {
