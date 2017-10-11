@@ -122,4 +122,8 @@ class Home extends React.Component {
   }
 }
 
+Home.propTypes = {
+  //No propTypes in Home
+};
+
 export default Home

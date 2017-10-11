@@ -126,4 +126,8 @@ class Gallery extends React.Component {
   }
 }
 
+Gallery.propTypes = {
+  //No propTypes in Gallery
+};
+
 export default Gallery
