@@ -19,7 +19,21 @@ class MovieList extends React.Component {
     };
   }
 
+  componentWillMount() {
+    console.log("will");
+  }
+  componentWillReceiveProps() {
+    console.log("willrece");
+  }
+  componentDidMount() {
+    console.log("did");
+  }
+  componentWillUnmount() {
+    console.log("willun");
+  }
+
   render() {
+    console.log("render");
     return (
       <div>
 
